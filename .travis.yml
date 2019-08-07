@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 10
+install:
+  - npm i -g vsce
+  - npm i
+script:
+  - npm run build
+  - vsce package
+deploy:
+  provider: script
+  script: vsce publish -p $VSCE_TOKEN
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: technicallyjosh/horizon-redux-theme-vscode
