@@ -1,0 +1,62 @@
+{
+  "name": "horizon-redux-theme-vscode",
+  "version": "1.0.0",
+  "author": {
+    "name": "Josh Newman",
+    "url": "https://technicallyjosh.com"
+  },
+  "displayName": "Horizon Redux Theme",
+  "description": "A modified version of the Horizon theme for Visual Studio Code",
+  "publisher": "technicallyjosh",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "build": "node scripts/build"
+  },
+  "galleryBanner": {
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "horizon",
+    "warm"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Horizon Redux",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon-redux-color-theme.json"
+      },
+      {
+        "label": "Horizon Redux Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon-redux-italic-color-theme.json"
+      },
+      {
+        "label": "Horizon Redux Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/horizon-redux-bold-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "fs-extra": "^8.1.0",
+    "mustache": "^3.0.1",
+    "nodemon": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/technicallyjosh/horizon-redux-theme-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/technicallyjosh/horizon-redux-theme-vscode/issues"
+  }
+}
