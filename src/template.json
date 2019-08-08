@@ -178,7 +178,7 @@
       "name": "Tags",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "{{ syntax.cranberry }}{{ alpha.high }}",
+        "foreground": "{{ syntax.lavender }}{{ alpha.high }}",
         "fontStyle": "{{ tagStyle }}"
       }
     },
