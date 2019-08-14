@@ -17,7 +17,8 @@
     "build": "node scripts/build"
   },
   "galleryBanner": {
-    "theme": "dark"
+    "theme": "dark",
+    "color": "#1C1E26"
   },
   "categories": [
     "Themes"
